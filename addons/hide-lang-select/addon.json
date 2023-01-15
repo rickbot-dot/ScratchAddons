@@ -1,6 +1,6 @@
 {
   "name": "Hide language selection",
-  "description": "Hides the language selection dropdown on the footer (or the top left in the editor).",
+  "description": "Hides the language selection dropdown on the footer (or next to the Scratch logo in the editor).",
   "userstyles": [
     {
       "url": "projects.css",
@@ -8,11 +8,11 @@
     },
     {
       "url": "www.css",
-      "matches": ["scratchWWWNoProject", "projects"]
+      "matches": ["scratchWWWNoProject", "projects"],
     },
     {
       "url": "r2.css",
-      "matches": ["isNotScratchWWW"]
+      "matches": ["isNotScratchWWW"],
     },
   ],
   "dynamicEnable": true,
