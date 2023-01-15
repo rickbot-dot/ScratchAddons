@@ -1,0 +1,20 @@
+{
+  "name": "Wide display",
+  "description": "Makes all pages wide.",
+  "credits": [
+    {
+      "name": "TylerMS887",
+      "link": "https://github.com/TylerMS887"
+    }
+  ],
+  "userstyles": [
+    {
+      "url": "style.css",
+      "matches": ["https://scratch.mit.edu/*"]
+    }
+  ],
+  "dynamicEnable": true,
+  "dynamicDisable": true,
+  "tags": ["theme", "featured"],
+  "versionAdded": "1.31.0"
+}
