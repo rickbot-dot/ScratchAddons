@@ -1,0 +1,22 @@
+{
+  "name": "Hide language selection",
+  "description": "Removes language selection from the UI.",
+  "userstyles": [
+    {
+      "url": "projects.css",
+      "matches": ["projects"],
+    },
+    {
+      "url": "www.css",
+      "matches": ["scratchWWWNoProject", "projects"]
+    },
+    {
+      "url": "r2.css",
+      "matches": ["isNotScratchWWW"]
+    },
+  ],
+  "dynamicEnable": true,
+  "dynamicDisable": true,
+  "tags": ["theme", "community"],
+  "versionAdded": "1.31.0"
+}
