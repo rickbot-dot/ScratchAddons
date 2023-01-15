@@ -1,0 +1,4 @@
+/* Hide lang-dropdown */
+#lang-dropdown {
+  visibility: none;
+}
