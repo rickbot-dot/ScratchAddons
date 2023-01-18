@@ -133,6 +133,7 @@
   "rename-broadcasts",
   "middle-click-popup",
   "number-pad",
+  "modes",
 
   "// NEW ADDONS ABOVE THIS ↑↑",
   "// Note: these themes need this exact order to work properly,",
@@ -144,7 +145,6 @@
   "old-studio-layout",
   "compact-messages",
   "customize-avatar-border",
-  "hide-lang-select",
   "scratchblocks",
   "better-featured-project",
   "material-forum-editor-buttons",
