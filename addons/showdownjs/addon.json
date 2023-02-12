@@ -1,0 +1,33 @@
+{
+  "name": "Comment formatting",
+  "description": "Style comments using Markdown formatting.",
+  "info": [
+    {
+      "type": "notice",
+      "text": "Anyone with this addon enabled can view the text formatted. Everyone else will see plain text (no styling).",
+      "id": "notice-formatting-broken-for-non-sa"
+    },
+    {
+      "type": "notice",
+      "text": "Scratch Emojis are not supported (yet). This is currently an experimental addon and there's missing features!",
+      "id": "notice-no-emojis-yet"
+    }
+  ],
+  "userscripts": [
+    {
+      "url": "projects.js",
+      "matches": ["projects"]
+    }
+  ],
+  "dynamicEnable": true,
+  "dynamicDisable": true,
+  "tags": ["projects", "community", "beta"],
+  "versionAdded": "1.31.0",
+  "credits": [
+    {
+      "name": "showdownjs.com",
+      "link": "https://showdownjs.com/",
+      "note": "Markdown renderer"
+    }
+  ]
+}
