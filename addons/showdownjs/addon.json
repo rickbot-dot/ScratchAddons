@@ -1,6 +1,6 @@
 {
   "name": "Comment formatting",
-  "description": "Style comments using Markdown formatting.",
+  "description": "Style comments using Markdown formatting. Largely inspired by ScratchTools' ScratchFormat setting.",
   "info": [
     {
       "type": "notice",
