@@ -9,6 +9,11 @@
     },
     {
       "type": "notice",
+      "text": "This addon is incompatible with other extensions that make changes to comment text (specifically the \"Line breaks in comments\" addon).",
+      "id": "notice-incompatiblity"
+    },
+    {
+      "type": "notice",
       "text": "Scratch Emojis are not supported (yet). This is currently an experimental addon and there's missing features!",
       "id": "notice-no-emojis-yet"
     }
