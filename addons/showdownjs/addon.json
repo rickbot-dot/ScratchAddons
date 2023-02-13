@@ -20,8 +20,8 @@
   ],
   "userscripts": [
     {
-      "url": "projects.js",
-      "matches": ["projects"]
+      "url": "scratchFormatting.js",
+      "matches": ["projects", "studios", "profiles"]
     }
   ],
   "dynamicEnable": true,
@@ -37,7 +37,7 @@
     {
       "name": "ScratchTools",
       "link": "https://github.com/STForScratch/ScratchTools/blob/main/features/scratchformat.js",
-      "note": "Inspiration and base"
+      "note": "Inspiration and partial base"
     }
   ]
 }
