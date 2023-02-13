@@ -1,6 +1,6 @@
 {
   "name": "Comment formatting",
-  "description": "Style comments using Markdown formatting. Largely inspired by ScratchTools' ScratchFormat setting.",
+  "description": "Style comments using Markdown formatting. Largely inspired by and based on ScratchTools' ScratchFormat setting.",
   "info": [
     {
       "type": "notice",
@@ -33,6 +33,11 @@
       "name": "showdownjs.com",
       "link": "https://showdownjs.com/",
       "note": "Markdown renderer"
+    },
+    {
+      "name": "ScratchTools",
+      "link": "https://github.com/STForScratch/ScratchTools/blob/main/features/scratchformat.js",
+      "note": "Inspiration and base"
     }
   ]
 }
