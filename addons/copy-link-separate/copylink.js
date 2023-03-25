@@ -33,9 +33,4 @@ export default async function ({ addon, console, msg }) {
         });
     }
   }
-
-  loadRemixButton();
-  addon.tab.addEventListener("urlChange", () => {
-    loadRemixButton();
-  });
 }
