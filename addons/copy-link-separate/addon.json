@@ -1,0 +1,31 @@
+{
+  "name": "Break away link copy button",
+  "description": "Removes the copy link dialog, and makes its functions available with seperate buttons.",
+  "tags": ["community", "featured", "projectPage"],
+  "credits": [
+    {
+      "name": "TylerMS887",
+      "link": "https://github.com/TylerMS887"
+    }
+  ],
+  "userscripts": [
+    {
+      "url": "copylink.js",
+      "matches": ["projects"],
+      "runAtComplete": false
+    }
+  ],
+  "userstyles": [
+    {
+      "url": "copylink.css",
+      "matches": ["projects"]
+    },
+    {
+      "url": "hidebutton.css",
+      "matches": ["projects"]
+    }
+  ],
+  "dynamicEnable": true,
+  "dynamicDisable": true,
+  "versionAdded": "1.31.0"
+}
