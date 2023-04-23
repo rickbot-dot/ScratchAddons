@@ -89,6 +89,7 @@ export default async function ({ addon, console, msg }) {
       if (!playerToggled || !showAlert) return;
 
       if (confirm(msg("confirmation"))) {
+        removeIframe();
         showAlert = false;
       } else {
         event.stopPropagation();
