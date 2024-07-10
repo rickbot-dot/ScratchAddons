@@ -10,7 +10,7 @@
     {
       "id": "deprecated",
       "type": "warning",
-      "text": "This addon is no longer supported and does not work anymore."
+      "text": "This addon is no longer supported and does not work anymore. Since we can't remove addons directly we have made it an easter egg addon."
     }
   ],
   "userstyles": [
@@ -22,7 +22,7 @@
   "dynamicEnable": true,
   "dynamicDisable": true,
   "versionAdded": "1.0.0",
-  "tags": ["forums", "community", "beta"],
+  "tags": ["forums", "easterEgg", "community", "beta"],
   "enabledByDefault": false,
   "libraries": ["spark-md5", "text-field-edit"]
 }
